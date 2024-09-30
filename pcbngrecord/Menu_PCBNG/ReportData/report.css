@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+body {
+    background-color: #83c5be;
+}
+
+.header {
+    background-color: #006d77;
+    color: #fff;
+    font-size: 20pt;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.header p {
+    margin-top: 20px;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 18pt;
+}
+
+.card {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    font-size: 16pt;
+}
+
+.table thead tr th {
+    background-color: #d90429;
+    color: #fff;
+    font-family: 'Mitr', sans-serif;
+}
+
+.table tbody tr td {
+    background-color: #edf2f4;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.beautiful .picdoc {
+    margin-top: 10px;
+}
+
+.card .textdate {
+    font-family: 'Mitr', sans-serif;
+    color: #006d77;
+    margin-top: 10px;
+}
+
+div.dataTables_wrapper #PCB_filter {
+    padding-right: 150px;
+    position: relative;
+    right: 13%;
+    font-family: 'Mitr', sans-serif;
+}
+
+div.dataTables_wrapper #PCB_filter input {
+    width: 150%;
+}
+
+button.dt-button.buttons-copy.buttons-html5 {
+    background-color: #06d6a0;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 14pt;
+    font-family: 'Mitr', sans-serif;
+    border: none !important;
+}
+
+button.dt-button.buttons-copy.buttons-html5:hover {
+    background-color: #fff;
+    color: #06d6a0;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 14pt;
+    font-family: 'Mitr', sans-serif;
+    border: none !important;
+}
+
+button.dt-button.buttons-excel.buttons-html5 {
+    background-color: #06d6a0;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 14pt;
+    font-family: 'Mitr', sans-serif;
+    border: none !important;
+}
+
+button.dt-button.buttons-excel.buttons-html5:hover {
+    background-color: #fff;
+    color: #06d6a0;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 14pt;
+    font-family: 'Mitr', sans-serif;
+    border: none !important;
+}

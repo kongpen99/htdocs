@@ -1,0 +1,26 @@
+.fg-choice {
+    background-color: darkseagreen;
+}
+
+.ng-choice {
+    background-color: rosybrown;
+}
+
+.noti-choice {
+    background-color: #f97a7a;
+}
+
+.reason-textbox {
+    background-color: #accfeb;
+    font-weight: bold;
+}
+
+.header-td {
+    /* background-color: #d59a68; */
+    background-color: #d59a68;
+    font-weight: bold;
+}
+
+.body-tb {
+    background-color: rgb(245, 222, 160);
+}

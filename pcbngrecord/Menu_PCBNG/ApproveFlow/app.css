@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+body {
+    font-family: 'Mitr', sans-serif;
+}
+
+.header {
+    color: #023e8a;
+    font-size: 18pt;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.header p {
+    margin-top: 15px;
+}
+
+.flowtxt {
+    font-size: 16pt !important;
+    color: #03045e;
+    font-family: 'Mitr', sans-serif;
+}
+
+.flowtxt2 {
+    font-size: 16pt !important;
+    color: #03045e;
+    font-family: 'Mitr', sans-serif;
+}
+
+.flowtxth {
+    font-size: 12pt !important;
+    color: #03045e;
+    font-family: 'Mitr', sans-serif;
+}
+
+.col {
+    margin-left: 400px;
+}
+
+.form-select {
+    font-size: 12pt;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.select2-container--bootstrap-5 .select2-selection {
+    width: 50%;
+}
+
+.thead th {
+    background-color: #023E8A !important;
+    color: #fff;
+    font-family: 'Mitr', sans-serif;
+}
+
+.tbody td {
+    background-color: #EAEEFF;
+    color: #023E8A;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+option {
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}

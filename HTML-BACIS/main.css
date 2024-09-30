@@ -1,0 +1,34 @@
+/* ทำการ Set ค่าให้เป็น 0 ทั้งหมด */
+
+* {
+    margin: top;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ในส่วนกล่องแมน */
+
+.main {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    /* ตัดในส่วนที่เกินออกจากกล่องแม่ */
+    overflow: hidden;
+}
+
+
+/* ในส่วนรูปภาพ */
+
+.img {
+    height: 250px;
+    background-color: brown;
+}
+
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+}

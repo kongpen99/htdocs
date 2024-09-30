@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lilita One', sans-serif;
+}
+
+nav {
+    background-color: #0074EC;
+    font-family: 'Mitr', sans-serif;
+    font-size: 16px;
+}
+
+.navbar .nav-item {
+    margin-left: 5px;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 5px 0;
+    position: relative;
+}
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-item .nav-link.active {
+    color: #ABFFB6;
+}
+
+.img {
+    position: relative;
+    opacity: 0.3;
+}
+
+#canva .contenttxt {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: #000;
+    font-size: 30pt;
+    font-family: 'Mitr', sans-serif;
+}
+
+#canva .contenttxt .txtthai {
+    color: #036D19;
+}
+
+#canva .contenttxt .txtthai span {
+    color: #FF0022;
+}
+
+#canva .contenttxt2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #000;
+    font-size: 24pt;
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+}
+
+#canva .contenttxt2 .txtEng {
+    color: #061A40;
+}
+
+#canva .contenttxt2 .txtEng span {
+    color: #FF0022;
+}
+
+#canva .contenttxt3 {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: #000;
+    font-size: 18pt;
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+#canva .contenttxt3 .btn {
+    margin-bottom: 10px;
+}

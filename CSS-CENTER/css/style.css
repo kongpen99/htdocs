@@ -1,0 +1,99 @@
+/* ทำการ reset ค่าเริ่มต้นหน้าแว็บ*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    /*คำสั่งให้ทำการชิดซ้าย ชิดขวา*/
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: non;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    /*แสดงโชว์ขึ้นต่อกันเป็นแนงนอน*/
+    display: flex;
+    /*ทำให้จุดหาย*/
+    list-style: none;
+}
+
+.menu li {
+    /*กำหนดยะระห่างภายนอกด้านซ้าย 10 px*/
+    margin: 10px;
+}
+
+.menu li a {
+    /*กำหนดให้เส้นใต้หายไป*/
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    /* กำหนดพื้นหลังเป็นสีเขียว */
+    background-color: teal;
+    /* กำหนดตัวหนังสือเป็นสี ขาว */
+    color: #fff;
+    height: 400px;
+    /* จัดให้อยู่กึ่งกลางแนวนอนแกน X,Y */
+    display: flex;
+    /* จัดให้อยู่กึ่งกลางแนวนอนแกน X */
+    justify-content: center;
+    /* จัดให้อยู่กึ่งกลางแนวตั้งแกน Y */
+    align-items: center;
+}
+
+.banner h1 {
+    margin-top: 30px;
+}
+
+
+/* จักให้ข้อความอยู่ตรงกลาง */
+
+.banner-info {
+    text-align: center;
+}
+
+.banner-info img {
+    width: 300px;
+    /* กำหนดให้รูปเป็นวงกลม */
+    border-radius: 100%;
+}
+
+main {
+    /* กำหนดหน้า Templat ให้เป็น  3 ช่อง */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main div {
+    padding: 30px;
+}
+
+
+/* กำหนด แทก P ให้ข้อความ  */
+
+main div p {
+    margin-top: 10px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

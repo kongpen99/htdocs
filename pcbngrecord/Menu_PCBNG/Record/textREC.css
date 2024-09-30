@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mitr', sans-serif;
+}
+
+.header {
+    color: #011936;
+    font-size: 20pt;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.header p {
+    margin-top: 15px;
+}
+
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
+    font-family: 'Mitr', sans-serif;
+    /* max-width: 240px; */
+}
+
+.coolinput label.text {
+    font-size: 14pt;
+    color: #011936;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    width: fit-content;
+    font-family: 'Mitr', sans-serif;
+}
+
+.coolinput input[type=text].input {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    /* width: 100%; */
+    margin-top: 5px;
+    font-size: 14pt;
+    font-family: 'Mitr', sans-serif;
+}
+
+.input {
+    color: #011936;
+    font-family: 'Mitr', sans-serif;
+}
+
+.coolinput input[type=text].input:focus {
+    outline: none;
+    color: #011936;
+    font-family: 'Mitr', sans-serif;
+}
+
+.coolinput input[type=number].input {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    /* width: 100%; */
+    margin-top: 5px;
+    font-size: 14pt;
+}
+
+.coolinput input[type=number].input:focus {
+    outline: none;
+    color: #011936;
+}
+
+.select {
+    margin: 4px 0;
+    font-family: 'Mitr', sans-serif;
+}
+
+.text-label {
+    font-size: 14pt;
+    color: #011936;
+}
+
+.form-select {
+    color: #011936;
+    height: 43px;
+    font-family: 'Mitr', sans-serif;
+}
+
+#areatxt {
+    margin: 7px 0;
+    color: #011936;
+    font-size: 12pt;
+    font-family: 'Mitr', sans-serif;
+}
+
+#exampleTextarea {
+    border: 2px #011936 solid;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 1em 5em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #011936;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Mitr', sans-serif;
+}
+
+.button:hover {
+    background-color: #2dd881;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.button:active {
+    transform: translateY(-1px);
+}
+
+optgroup.line1 {
+    color: #38b000;
+}
+
+optgroup.line2 {
+    color: #b7094c;
+}
+
+optgroup.line3 {
+    color: #437f97;
+}
+
+optgroup.line4 {
+    color: #3b6064;
+}
+
+optgroup.line5 {
+    color: #f79256;
+}
